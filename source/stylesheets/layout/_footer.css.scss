@@ -1,23 +1,22 @@
 .footer-wrapper {
-  background-color: #333c49;
+  background-color: $dark-blue;
   height: 150px;
   padding-top: 40px;
   padding-left: 40px;
   display: flex;
   align-content: space-around;
+  p {
+  color: $grey-blue;
+  font-weight: bolder;
+  }
 }
 
 .fa {
-  color: #a5b4cc;
+  color: $grey-blue;
   transition: all 0.5s ease;
   padding-right: 10px;
 }
 
 .fa:hover {
-  color: #fffb0f;
-}
-
-.footer-wrapper p {
-  color: #a5b4cc;
-  font-weight: bolder;
+  color: $yellow;
 }

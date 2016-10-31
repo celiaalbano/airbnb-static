@@ -1,15 +1,17 @@
 body {
   margin: 0;
-  font-family: Open-sans, sans-serif;
+  font-family: $base-font;
 }
 h1, h2, h3 {
-  font-family: Raleway, Helvetica, sans-serif;
+  font-family: $header-font;
+  color: $dark-blue;
 }
 h2 {
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 0;
+  color: $dark-blue;
 }
 
 .padded {
@@ -17,6 +19,6 @@ h2 {
 }
 
 .wrapper-grey {
-  background: #F4F4F4;
+  background: $grey-blue;
   margin-bottom: 100px;
 }
