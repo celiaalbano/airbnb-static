@@ -1,0 +1,42 @@
+.card {
+  box-shadow: 1px 1px 2px #e7e7e7;
+  border-radius: 5px;
+  height: 250px;
+  background-size: cover !important;
+  position: relative;
+  margin-top: 20px;
+}
+
+.card:hover {
+  opacity: 0.5;
+}
+
+.card h3 {
+  color: white;
+  font-family: Open-sans, sans-serif;
+  font-weight: Semi-Bold;
+  position: absolute;
+  margin: 0;
+  top: 10px;
+  left: 5px;
+}
+
+.card h2 {
+  color: white;
+  font-family: Open-sans, sans-serif;
+  font-weight: Bold;
+  position: absolute;
+  margin: 0;
+  bottom: 45px;
+  left: 5px;
+}
+
+.card p {
+  color: white;
+  font-family: Open-sans, sans-serif;
+  font-weight: regular;
+  position: absolute;
+  margin: 0;
+  bottom: 10px;
+  left: 5px;
+}
